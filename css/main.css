@@ -132,19 +132,13 @@ section .hello-world {
   max-height: 476px;
 }
 
-.about-me a {
-  text-decoration: none;
-  font-size: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+.about-me .resume-button {
   background-color: #75e6da;
+  padding: 10px 15px;
+  font-family: 'nunito sans';
   border-radius: 5px;
-  border: 0;
   font-weight: bold;
   color: #141616;
-  font-family: "nunito sans";
 }
 
 .featured-desc {
@@ -245,28 +239,6 @@ section .hello-world {
   text-align: center;
 }
 
-.portfolio div {
-  display: -ms-grid;
-  display: grid;
-}
-
-.portfolio div a {
-  text-decoration: none;
-  font-size: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #75e6da;
-  border-radius: 5px;
-  border: 0;
-  font-weight: bold;
-  color: #141616;
-  font-family: "nunito sans";
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
-
 .portfolio-container .subtitle {
   font-family: "comfortaa";
   font-size: .9em;
@@ -288,6 +260,22 @@ section .hello-world {
   font-family: "comfortaa";
   font-size: .7em;
   color: #87b0e2;
+}
+
+.portfolio {
+  display: -ms-grid;
+  display: grid;
+}
+
+.portfolio .view-works-button {
+  background-color: #75e6da;
+  padding: 10px 15px;
+  font-family: 'nunito sans';
+  border-radius: 5px;
+  font-weight: bold;
+  color: #141616;
+  margin: 0 auto;
+  font-size: 35px;
 }
 
 footer {
