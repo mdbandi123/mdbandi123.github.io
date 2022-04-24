@@ -89,7 +89,7 @@ header nav a {
   height: 20px;
   margin-bottom: -4px;
   width: 2px;
-  background: black;
+  background: #141616;
   opacity: 0;
   display: inline-block;
   -webkit-animation: blink 1s linear infinite alternate;
@@ -132,6 +132,21 @@ section .hello-world {
   max-height: 476px;
 }
 
+.about-me a {
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #75e6da;
+  border-radius: 5px;
+  border: 0;
+  font-weight: bold;
+  color: #141616;
+  font-family: "nunito sans";
+}
+
 .featured-desc {
   margin-bottom: 3em;
   font-size: .85em;
@@ -151,25 +166,47 @@ section .hello-world {
   font-size: 1.3em;
 }
 
-.skills-container ul li .icon-container-1, .skills-container ul li .icon-container-2, .skills-container ul li .icon-container-3 {
+.skills-container ul li .icon-container-1,
+.skills-container ul li .icon-container-2,
+.skills-container ul li .icon-container-3 {
   height: 100px;
   display: block;
   margin: 2em auto;
 }
 
-.skills-container ul li .icon-container-1.one, .skills-container ul li .icon-container-2.one, .skills-container ul li .icon-container-3.one {
+.skills-container ul li .icon-container-1.one,
+.skills-container ul li .icon-container-2.one,
+.skills-container ul li .icon-container-3.one {
   width: 100px;
 }
 
-.skills-container ul li .icon-container-1.two, .skills-container ul li .icon-container-2.two, .skills-container ul li .icon-container-3.two {
+.skills-container ul li .icon-container-1.two,
+.skills-container ul li .icon-container-2.two,
+.skills-container ul li .icon-container-3.two {
   width: 100px;
 }
 
-.skills-container ul li .icon-container-1.three, .skills-container ul li .icon-container-2.three, .skills-container ul li .icon-container-3.three {
+.skills-container ul li .icon-container-1.three,
+.skills-container ul li .icon-container-2.three,
+.skills-container ul li .icon-container-3.three {
   width: 100px;
 }
 
-.skills-container ul li .icon-container-1.four, .skills-container ul li .icon-container-2.four, .skills-container ul li .icon-container-3.four {
+.skills-container ul li .icon-container-1.four,
+.skills-container ul li .icon-container-2.four,
+.skills-container ul li .icon-container-3.four {
+  width: 100px;
+}
+
+.skills-container ul li .icon-container-1.five,
+.skills-container ul li .icon-container-2.five,
+.skills-container ul li .icon-container-3.five {
+  width: 100px;
+}
+
+.skills-container ul li .icon-container-1.six,
+.skills-container ul li .icon-container-2.six,
+.skills-container ul li .icon-container-3.six {
   width: 100px;
 }
 
@@ -205,6 +242,29 @@ section .hello-world {
   font-weight: bold;
   font-size: 2em;
   letter-spacing: .2em;
+  text-align: center;
+}
+
+.portfolio div {
+  display: -ms-grid;
+  display: grid;
+}
+
+.portfolio div a {
+  text-decoration: none;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #75e6da;
+  border-radius: 5px;
+  border: 0;
+  font-weight: bold;
+  color: #141616;
+  font-family: "nunito sans";
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .portfolio-container .subtitle {
@@ -261,16 +321,19 @@ footer .footer-right img {
 }
 
 @media only screen and (min-width: 800px) {
-  .about-me, .portfolio {
+  .about-me,
+  .portfolio {
     text-align: left;
   }
-  .about-me, .portfolio-container {
+  .about-me,
+  .portfolio-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 40% auto;
         grid-template-columns: 40% auto;
   }
-  .left, .portfolio-left {
+  .left,
+  .portfolio-left {
     display: -ms-grid;
     display: grid;
     place-content: center;
